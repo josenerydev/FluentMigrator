@@ -1,0 +1,1 @@
+﻿dotnet-fm migrate -c 'server=(localdb)\mssqllocaldb;database=FluentMigrator;Integrated Security=True;' -p SqlServer2016 -a .\FluentMigrator.Sample\bin\Debug\netcoreapp3.1\FluentMigrator.Sample.dll
